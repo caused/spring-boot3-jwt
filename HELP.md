@@ -21,13 +21,3 @@ The following guides illustrate how to use some features concretely:
 * [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
-
-
-### Running this project
-
-First of all, deploy a local instance of Postgres. Here an example inside a docker container:
-
-```
-docker run --name postgres-jwt  -e "POSTGRES_PASSWORD=teste" -e "POSTGRES_DB=postgres"  -p 5432:5432 -v /Users/gustavoalves/Documents/estudos/PostgreSQL:/var/lib/postgresql/data -d postgres
-
-```
